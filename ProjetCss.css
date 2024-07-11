@@ -1,0 +1,124 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Header */
+
+Header{
+    height: 100px;
+    border-bottom: solid;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    border-bottom: solid;
+    border-color: red;
+
+}
+
+img{
+    width: 75px;
+    height: 75px;
+    border-radius: 33px;
+
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 10px;
+    gap: 20px;
+}
+il{
+    font-size: 20px;
+}
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: rgb(118, 14, 14);
+} 
+
+a:active{
+    color: #0000FF
+}
+
+/* Main */
+
+main{
+    height: 627px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+div{
+    margin-top: 50px;
+    margin-left: 50px;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+    border-radius: 15px;
+}
+button{
+    margin-top: 15px;
+}
+p{
+    color: azure;
+    padding: 10px;
+}
+h2{
+    margin: 20px;
+    color: azure;
+}
+form >input{
+    margin: 3px;
+    box-sizing: content-box;
+    margin: 8px 0;
+    width: 250px;
+    height: 25px;
+    
+}
+section{
+    display: flex;
+    justify-content: center ;
+    gap: 20px;
+}
+ button{
+    margin: 1px;
+    background-color:red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid red;
+  }
+input[type=password] {
+    border: none;
+    border-bottom: 2px solid red;
+  }
